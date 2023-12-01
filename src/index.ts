@@ -31,6 +31,7 @@ export class AppMain extends LitElement {
         <pre ${ref(this.callsignMorse)} class="typewriter leading-tight typewriter-large-morse">-··· -·· ····- ·-- -··- -···</pre>
       </header>
       <div class="w-full">
+        <h2 class="text-center text-[#0000f5] text-opacity-1" lang="ja">「忘れたくない想い、ありますか？」</h2>
         <hr class="uk-divider-icon divider-animation" />
         <article class="mx-6">
         <h2 class="text-center uk-h2">茶栗的个人业余电台</h2>
@@ -70,7 +71,8 @@ export class AppMain extends LitElement {
           <h3 class="uk-h3">通联日志</h3>
           （TODO）
         </article>
-        <footer class="mx-6 my-6 text-center">Copyleft 2023 chariri, Made with TypeScript, Lit, UIKit and ♥, 本主页开源在 GitHub<br>
+        <h2 class="text-center text-[#f2a93b] text-opacity-1" lang="ja">「聞こえますか？真実の旋律。」</h2>
+        <footer class="mx-6 my-6 text-center">Chihiro HAM Logbook, Copyleft 2023 chariri, Made with TypeScript, Lit, UIKit and ♥, 本主页开源在 GitHub<br>
         <a href="https://chariri.moe">个人 Blog</a> - <a href="https://m.chariri.moe/@chariri">Misskey</a></footer>
       </div>
     </div>`;
