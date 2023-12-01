@@ -1,38 +1,67 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Space Mono';
+  src: url('assets/SpaceMono-Regular.ttf');
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+@font-face {
+  font-family: 'Space Mono';
+  src: url('assets/SpaceMono-Bold.ttf');
+  font-weight: bold;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+@font-face {
+  font-family: 'Julia Mono';
+  src: url('assets/JuliaMono-RegularLatin.woff2') format('woff2');
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@font-face {
+  font-family: 'Julia Mono';
+  src: url('assets/JuliaMono-BoldLatin.woff2') format('woff2');
+  font-weight: bold;
+}
+
+.qsl-img {
+  width: clamp(1px, 400px, 100%)
+}
+
+.typewriter {
+  font-family: 'Julia Mono';
+  overflow: visible;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  line-height: 1;
+  padding: 0;
+  border: 0;
+}
+
+.typewriter-small-morse {
+  font-size: clamp(1.5vw, 2rem, 4vw);
+}
+.typewriter-large-morse {
+  font-size: clamp(2vw, 3rem, 6vw);
+}
+.typewriter-small-text {
+  font-size: clamp(2vw, 3rem, 6vw);
+}
+.typewriter-large-text {
+  font-size: clamp(6vw, 8rem, 10vw);
+}
+
+.divider-animation {
+  animation: divider-stretch 1s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes divider-stretch {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
   }
 }
