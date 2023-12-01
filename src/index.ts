@@ -80,10 +80,16 @@ export class AppMain extends LitElement {
   }
 
   firstUpdated(): void {
+    const scrollListener = () => {
+      if (window.scrollY > 20) {
+        window.removeEventListener("scroll", scrollListener);
+        this.contentElement.value!.style.opacity = "1.0";
+      }
+    };
+    window.addEventListener("scroll", scrollListener);
     const cqAnimation = new MorseAnimator(this.cqcqText.value!, this.cqcqMorse.value!);
     const csAnimation = new MorseAnimator(this.callsignText.value!, this.callsignMorse.value!);
     cqAnimation.beginAnimation(() => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
       setTimeout(() => {
         csAnimation.beginAnimation(() => {
           this.contentElement.value!.style.opacity = "1.0";
