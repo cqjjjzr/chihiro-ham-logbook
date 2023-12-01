@@ -59,8 +59,8 @@ export class AppMain extends LitElement {
 请在通联后直接通过上述 E-Mail 联系我并告知您的邮寄地址，我会寄出 QSL 卡片并告知您我的 QSL 卡片。向我邮寄卡片时不需要附上 SASE。</p>
             <p>目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到 LoTW 与本站，您可通过下方的 Logbook 确认我们的通联。</p>
             <div class="flex justify-between justify-items-center my-4 flex-wrap shrink">
-              <img src="src/assets/QSLCard.webp" class="qsl-img">
-              <img src="src/assets/QSLCard-Back.webp" class="qsl-img">
+              <img src="assets/QSLCard.webp" class="qsl-img">
+              <img src="assets/QSLCard-Back.webp" class="qsl-img">
             </div>
             <p class="indent-0 text-center">
               我的 QSL 卡片<br>
