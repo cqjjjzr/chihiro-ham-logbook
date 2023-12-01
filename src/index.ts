@@ -8,17 +8,19 @@ import { type Ref, createRef, ref } from 'lit/directives/ref.js';
 
 @customElement('app-main')
 export class AppMain extends LitElement {
-  cqcqText: Ref<HTMLInputElement> = createRef();
-  cqcqMorse: Ref<HTMLInputElement> = createRef();
-  callsignText: Ref<HTMLInputElement> = createRef();
-  callsignMorse: Ref<HTMLInputElement> = createRef();
+  cqcqText: Ref<HTMLElement> = createRef();
+  cqcqMorse: Ref<HTMLElement> = createRef();
+  callsignText: Ref<HTMLElement> = createRef();
+  callsignMorse: Ref<HTMLElement> = createRef();
+  contentElement: Ref<HTMLElement> = createRef();
+  dividerElement: Ref<HTMLElement> = createRef();
 
   createRenderRoot(): AppMain {
     return this; // No shadow root
   }
 
   render() {
-    return html` <div class="uk-container w-full max-w-4xl mx-auto my-auto relative" id="app-cont">
+    return html` <div class="w-full max-w-4xl mx-auto my-auto relative" id="app-cont">
       <div class="mt-8 mx-6 inline-block text-xl leading-none text-center">
       <a href="https://chariri.moe/" target="_blank" class="ml-1 flex justify-start items-center">
         <span class="text-2xl">🌰</span><span>茶栗栗屋 blog</span>
@@ -30,9 +32,9 @@ export class AppMain extends LitElement {
         <pre ${ref(this.callsignText)} class="typewriter block font-bold typewriter-large-text">BD4WXB</pre>
         <pre ${ref(this.callsignMorse)} class="typewriter leading-tight typewriter-large-morse">-··· -·· ····- ·-- -··- -···</pre>
       </header>
-      <div class="w-full">
+      <div class="w-full duration-500 opacity-0" ${ref(this.contentElement)}>
         <h2 class="text-center text-[#0000f5] text-opacity-1" lang="ja">「忘れたくない想い、ありますか？」</h2>
-        <hr class="uk-divider-icon divider-animation" />
+        <hr ${ref(this.dividerElement)} class="uk-divider-icon w-0 duration-1000 mx-auto" />
         <article class="mx-6">
         <h2 class="text-center uk-h2">茶栗的个人业余电台</h2>
           <dl class="uk-description-list">
@@ -55,10 +57,9 @@ export class AppMain extends LitElement {
 
           <h3 class="uk-h3">QSL 卡片交换</h3>
           <div class="indent-[2em]">
-            <p>欢迎与我成功通联的友台交换 QSL 卡片，由于目前本人暂未办妥卡片代理人相关事宜，
-请在通联后直接通过上述 E-Mail 联系我并告知您的邮寄地址，我会寄出 QSL 卡片并告知您我的 QSL 卡片。向我邮寄卡片时不需要附上 SASE。</p>
-            <p>目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到 LoTW 与本站，您可通过下方的 Logbook 确认我们的通联。</p>
-            <div class="flex justify-between justify-items-center my-4 flex-wrap shrink">
+            <p>欢迎与我成功通联的友台交换 QSL 卡片，由于目前本人暂未办妥卡片代理人相关事宜，请在通联后直接通过上述 E-Mail 联系我并告知您的邮寄地址，我会寄出 QSL 卡片并告知您我的 QSL 卡片。向我邮寄卡片时不需要附上 SASE。</p>
+            <p>目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到本站与 LoTW，您可通过下方的 Logbook 确认我们的通联。</p>
+            <div class="flex justify-evenly justify-items-center my-4 flex-wrap shrink">
               <img src="assets/QSLCard.webp" class="qsl-img">
               <img src="assets/QSLCard-Back.webp" class="qsl-img">
             </div>
@@ -82,8 +83,12 @@ export class AppMain extends LitElement {
     const cqAnimation = new MorseAnimator(this.cqcqText.value!, this.cqcqMorse.value!);
     const csAnimation = new MorseAnimator(this.callsignText.value!, this.callsignMorse.value!);
     cqAnimation.beginAnimation(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       setTimeout(() => {
-        csAnimation.beginAnimation();
+        csAnimation.beginAnimation(() => {
+          this.contentElement.value!.style.opacity = "1.0";
+          this.dividerElement.value!.style.width = "100%";
+        });
       }, 200);
     });
   }

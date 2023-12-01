@@ -51,12 +51,6 @@
   font-size: clamp(6vw, 8rem, 10vw);
 }
 
-.divider-animation {
-  animation: divider-stretch 1s;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 @keyframes divider-stretch {
   from {
     width: 0;
