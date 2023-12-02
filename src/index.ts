@@ -36,7 +36,7 @@ export class AppMain extends LitElement {
     return html`
       <footer class="mx-6 my-6 text-center">
         <h2 class="text-center text-[#f2a93b] text-opacity-1" lang="ja">「聞こえますか？真実の旋律。」</h2>
-        Chihiro HAM Logbook, Copyleft 2023 chariri, Made with TypeScript, Lit, UIKit and ♥, 本主页开源在 GitHub<br>
+        Chihiro HAM Logbook, Copyleft 2023 chariri, Made with TypeScript, TailwindCSS, Lit, UIKit and ♥, 本主页开源在 GitHub<br>
         <a href="https://chariri.moe">个人 Blog</a> - <a href="https://m.chariri.moe/@chariri">Misskey</a>
       </footer>
     `;

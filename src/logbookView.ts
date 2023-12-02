@@ -8,16 +8,22 @@ export class LogbookView extends LitElement {
   }
   render() {
     return html`
-    <div uk-grid class="uk-child-width-expand@s uk-grid-divider uk-grid-collapse">
-      <div>pib</div>
-      <div>pib</div>
+    <div class="w-full h-full flex flex-col">
+      <div class="grid grid-cols-2 sm:grid-cols-3">
+        <div>pib</div>
+        <div>pib</div>
+        <div>pib</div>
+        <div>pib</div>
+        <div>pib</div>
+        <div>pib</div>
+        <div>pib</div>
 
-    </div>
-    
-    <div class="block border-solid border-stone-400 border-2 rounded w-full my-0 overflow-auto">
-      <div class="uk-card uk-card-body uk-card-hover mx-3 mt-3">
-        <h3 class="uk-card-title">Test card</h3>
       </div>
-    </div>`;
+
+      <div class="block mt-4 border-solid border-stone-400 border-2 rounded w-full grow overflow-auto">
+        test card
+      </div>
+    </div>
+    `;
   }
 }
