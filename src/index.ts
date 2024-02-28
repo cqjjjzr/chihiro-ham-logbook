@@ -47,7 +47,7 @@ export class AppMain extends LitElement {
       <h2 class="text-center uk-h2">茶栗的个人业余电台</h2>
       <dl class="uk-description-list">
         <dt>台址</dt>
-        <dd>CRAC 4 区 - 江苏省南京市栖霞区南京大学仙林校区 - <span class="font-mono">OM92lc</span></dd>
+        <dd>CRAC 4 区 - 江苏省南京市栖霞区仙林大道 - <span class="font-mono">OM92lc</span></dd>
         <dt>设备</dt>
         <dd><ul class="uk-list uk-list-circle">
           <li>欧讯 KG-UV9D(Plus) + 钻石 SRH771 天线</li>
@@ -59,12 +59,14 @@ export class AppMain extends LitElement {
           <li>430~440 MHz (UHF)，FM，个人较活跃的频率为 438.5 MHz 直频与 430.61 MHz 南京紫金山中继</li>
           <li>144~148 MHz (VHF)，FM，个人不常用</li>
         </ul></dd>
+        <dt>邮寄地址</dt>
+        <dd class="font-mono">江苏省南京市4294号邮箱 210042</dd>
         <dt>线上联系方式</dt>
         <dd class="font-mono"><a href="mailto:chariri <chariri@chariri.moe>">chariri@chariri.moe</a></dd>
       </dl>
       <h3 class="uk-h3">QSL 卡片交换</h3>
       <div class="indent-[2em]">
-        <p>欢迎与我成功通联的友台交换 QSL 卡片，由于目前本人暂未办妥卡片代理人相关事宜，请在通联后直接通过上述 E-Mail 联系我并告知您的邮寄地址，我会寄出 QSL 卡片并告知您我的 QSL 卡片。向我邮寄卡片时不需要附上 SASE。</p>
+        <p>欢迎与我成功通联的友台交换 QSL 卡片，纸质卡片请直接向上表中地址寄出。我会查询 HamCQ 与 QRZ.com 并向我能查到信息的友台寄送卡片，或在收到卡片后回寄。向我邮寄卡片时不需要附上 SASE。</p>
         <p>目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到本站与 LoTW，您可通过下方的 Logbook 确认我们的通联。</p>
         <div class="flex justify-evenly justify-items-center my-4 flex-wrap shrink">
           <img src="assets/QSLCard.webp" class="qsl-img">
