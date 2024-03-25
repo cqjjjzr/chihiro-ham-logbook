@@ -27,6 +27,7 @@ module.exports = {
   },
   rules: {
     '@stylistic/semi': [2, 'always'],
-    '@stylistic/indent': [2, 2]
+    '@stylistic/indent': [2, 2],
+    '@stylistic/quotes': [2, 'single']
   }
 };

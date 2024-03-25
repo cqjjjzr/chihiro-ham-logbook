@@ -36,7 +36,7 @@ export class AppMain extends LitElement {
     return html`
       <footer class="mx-6 my-6 text-center">
         <h2 class="text-center text-[#f2a93b] text-opacity-1" lang="ja">「聞こえますか？真実の旋律。」</h2>
-        ${msg(html`Chihiro HAM Logbook, Copyleft 2023 chariri, Made with TypeScript, TailwindCSS, Lit, UIKit and ♥, 本主页开源在 <a href="https://github.com/cqjjjzr/chihiro-ham-logbook">GitHub</a>`)}<br>
+        ${msg(html`Chihiro HAM Logbook, Copyleft 2023 chariri, Made with TypeScript, TailwindCSS, Lit, hiq and ♥, 本主页开源在 <a href="https://github.com/cqjjjzr/chihiro-ham-logbook">GitHub</a>`)}<br>
         ${msg(html`<a href="https://chariri.moe">个人 Blog</a> - <a href="https://m.chariri.moe/@chariri">Misskey</a>`)}
       </footer>
     `;
@@ -96,6 +96,7 @@ export class AppMain extends LitElement {
           ${this.descriptionTemplate()}
           <hr class="uk-divider-icon" />
           <h3 class="uk-h3">${msg('通联日志')}</h3>
+          ${msg('欢迎与我通联的友台通过各种联系方式联系我修正有记录错误的地方，或去除不希望在此披露的可能的隐私信息。')}
           <logbook-view class="block mx-0 h-[80vh]"></logbook-view>
         </article>
       </div>
@@ -107,18 +108,18 @@ export class AppMain extends LitElement {
   firstUpdated(): void {
     const scrollListener = () => {
       if (window.scrollY > 20) {
-        window.removeEventListener("scroll", scrollListener);
-        this.contentElement.value!.style.opacity = "1.0";
+        window.removeEventListener('scroll', scrollListener);
+        this.contentElement.value!.style.opacity = '1.0';
       }
     };
-    window.addEventListener("scroll", scrollListener);
+    window.addEventListener('scroll', scrollListener);
     const cqAnimation = new MorseAnimator(this.cqcqText.value!, this.cqcqMorse.value!);
     const csAnimation = new MorseAnimator(this.callsignText.value!, this.callsignMorse.value!);
     cqAnimation.beginAnimation(() => {
       setTimeout(() => {
         csAnimation.beginAnimation(() => {
-          this.contentElement.value!.style.opacity = "1.0";
-          this.dividerElement.value!.style.width = "100%";
+          this.contentElement.value!.style.opacity = '1.0';
+          this.dividerElement.value!.style.width = '100%';
         });
       }, 200);
     });

@@ -1,16 +1,22 @@
+@import '../node_modules/hiq/dist/hiq.css';
+@import './variables.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Space Mono';
-  src: url('assets/SpaceMono-Regular.ttf');
+@layer components {
+  .detail-row {
+    @apply flex flex-row py-2 border-b border-b-slate-700 hover:bg-black/5 transition-colors;
+  }
 }
 
-@font-face {
-  font-family: 'Space Mono';
-  src: url('assets/SpaceMono-Bold.ttf');
-  font-weight: bold;
+*,
+::before,
+::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: theme('borderColor.DEFAULT', currentColor);
 }
 
 @font-face {
