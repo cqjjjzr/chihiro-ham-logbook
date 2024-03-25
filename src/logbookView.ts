@@ -55,25 +55,22 @@ export class LogbookView extends LitElement {
     return html`
     ${this.errorBoxTemplate()}
     ${this.detailsDialogTemplate()}
-      <div class="flex justify-between mt-4 border-solid border-stone-400 border-2 rounded w-full h-full grow overflow-auto" id='logbook-wrapper'>
-        <div class="w-full">
-          <table class="min-w-[800px]">
-            <thead><tr class="[&>th]:sticky">
-              <th>${msg('UTC时间')}</th>
-              <!--<th>${msg('己方呼号')}</th>-->
-              <th>${msg('对方呼号')}</th>
-              <th>${msg('送出')}</th>
-              <th>${msg('收到')}</th>
-              <th>${msg('发射频率')}</th>
-              <th>${msg('接收频率')}</th>
-              <th>${msg('模式')}</th>
-              <th>${msg('发射功率')}</th>
-            </tr></thead>
-            <tbody>${this.dataTemplate()}</tbody>
-          </table>
-        </div>
+      <div class="mt-4 border-solid border-stone-400 border-2 rounded w-full h-full grow overflow-auto" id='logbook-wrapper'>
+        <table class="min-w-[800px] top-0 w-full h-full">
+          <thead><tr class="[&>th]:sticky [&>th]:top-0">
+            <th>${msg('UTC时间')}</th>
+            <!--<th>${msg('己方呼号')}</th>-->
+            <th>${msg('对方呼号')}</th>
+            <th>${msg('送出')}</th>
+            <th>${msg('收到')}</th>
+            <th>${msg('发射频率')}</th>
+            <th>${msg('接收频率')}</th>
+            <th>${msg('模式')}</th>
+            <th>${msg('发射功率')}</th>
+          </tr></thead>
+          <tbody>${this.dataTemplate()}</tbody>
+        </table>
       </div>
-    </div>
     `;
   }
 
