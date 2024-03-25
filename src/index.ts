@@ -2,12 +2,11 @@ import './index.css';
 
 import { LitElement, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
-
-import { MorseAnimator } from './morseAnimator.ts';
+import { msg } from '@lit/localize';
 import { type Ref, createRef, ref } from 'lit/directives/ref.js';
 
 import './logbookView.ts';
-import { msg } from '@lit/localize';
+import { MorseAnimator } from './morseAnimator.ts';
 
 @customElement('app-main')
 export class AppMain extends LitElement {
@@ -86,7 +85,7 @@ export class AppMain extends LitElement {
     return html` <div class="w-full max-w-4xl mx-auto my-auto relative" id="app-cont">
       <div class="mt-8 mx-6 inline-block text-xl leading-none text-center">
       <a href="https://chariri.moe/" target="_blank" class="ml-1 flex justify-start items-center">
-        <span class="text-2xl">🌰</span><span>msg('茶栗栗屋 blog')</span>
+        <span class="text-2xl">🌰</span><span>${msg('茶栗栗屋 blog')}</span>
       </a>
       </div>
       ${this.headerTemplate()}
