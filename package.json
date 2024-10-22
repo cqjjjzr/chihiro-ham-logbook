@@ -9,28 +9,28 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@lit/localize": "^0.12.1",
-    "dayjs": "^1.11.10",
-    "hiq": "^4.2.3",
-    "lit": "^3.1.2",
+    "@lit/localize": "^0.12.2",
+    "dayjs": "^1.11.13",
+    "hiq": "^4.2.11",
+    "lit": "^3.2.1",
     "normalize.css": "^8.0.1",
-    "prettier": "^3.2.5"
+    "prettier": "^3.3.3"
   },
   "devDependencies": {
     "@lit/localize-tools": "^0.7.2",
-    "@stylistic/eslint-plugin": "^1.7.0",
-    "@stylistic/eslint-plugin-ts": "^1.7.0",
-    "@types/tabulator-tables": "^5.6.0",
-    "@typescript-eslint/eslint-plugin": "^7.3.1",
-    "autoprefixer": "^10.4.19",
-    "eslint": "^8.57.0",
-    "eslint-plugin-import": "^2.29.1",
+    "@stylistic/eslint-plugin": "^1.8.1",
+    "@stylistic/eslint-plugin-ts": "^1.8.1",
+    "@types/tabulator-tables": "^5.32.1",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-promise": "^6.6.0",
     "less": "^4.2.0",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.3",
-    "vite": "^5.2.6"
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9"
   }
 }
