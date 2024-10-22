@@ -13,8 +13,7 @@
     "dayjs": "^1.11.13",
     "hiq": "^4.2.11",
     "lit": "^3.2.1",
-    "normalize.css": "^8.0.1",
-    "prettier": "^3.3.3"
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@lit/localize-tools": "^0.7.2",

@@ -1,5 +1,5 @@
 import { LitElement, html, nothing } from 'lit';
-import { msg } from '@lit/localize';
+import { localized, msg } from '@lit/localize';
 import { customElement, state } from 'lit/decorators.js';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
@@ -31,6 +31,7 @@ function convertAdifTime(date: string, time: string): number {
 }
 
 
+@localized()
 @customElement('logbook-view')
 export class LogbookView extends LitElement {
   @state()

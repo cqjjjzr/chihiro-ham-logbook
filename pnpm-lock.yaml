@@ -20,9 +20,6 @@ dependencies:
   normalize.css:
     specifier: ^8.0.1
     version: 8.0.1
-  prettier:
-    specifier: ^3.3.3
-    version: 3.3.3
 
 devDependencies:
   '@lit/localize-tools':
@@ -61,6 +58,9 @@ devDependencies:
   postcss:
     specifier: ^8.4.47
     version: 8.4.47
+  prettier:
+    specifier: ^3.3.3
+    version: 3.3.3
   tailwindcss:
     specifier: ^3.4.14
     version: 3.4.14
@@ -3587,7 +3587,7 @@ packages:
     resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: false
+    dev: true
 
   /pretty-hrtime@1.0.3:
     resolution: {integrity: sha512-66hKPCr+72mlfiSjlEB1+45IjXSqvVAIy6mocupoww4tBFE9R9IhwwUGoI4G++Tc9Aq+2rxOt0RFU6gPcrte0A==}

@@ -4,132 +4,175 @@
 <body>
 <trans-unit id="scd53a3d007f9483f">
   <source>UTC时间</source>
+  <target>UTC</target>
 </trans-unit>
 <trans-unit id="s67d888c7fc251fea">
   <source>己方呼号</source>
+  <target>My Callsign</target>
 </trans-unit>
 <trans-unit id="s5488c45d1662eab2">
   <source>对方呼号</source>
+  <target>Their Callsign</target>
 </trans-unit>
 <trans-unit id="sf160cc095460e0a2">
   <source>送出</source>
+  <target>Sent</target>
 </trans-unit>
 <trans-unit id="s7f158c081a148d9b">
   <source>收到</source>
+  <target>Received</target>
 </trans-unit>
 <trans-unit id="s96ca6d0638209ef4">
   <source>发射频率</source>
+  <target>TX Freq</target>
 </trans-unit>
 <trans-unit id="sbedbce22a379c5ca">
   <source>接收频率</source>
+  <target>RX Freq</target>
 </trans-unit>
 <trans-unit id="s8923590822abd559">
   <source>模式</source>
+  <target>Mode</target>
 </trans-unit>
 <trans-unit id="s2bda9d0429f00cd6">
   <source>发射功率</source>
+  <target>TX Pwr</target>
 </trans-unit>
 <trans-unit id="s7e98aaf4026d889a">
   <source>拉取通联日志失败</source>
+  <target>Failed to Retrieve Logbook</target>
 </trans-unit>
 <trans-unit id="s95ea085ff604073b">
   <source>开始时间（UTC）</source>
+  <target>Time On (UTC)</target>
 </trans-unit>
 <trans-unit id="s90b00e681c1d1245">
   <source>开始时间（本地）</source>
+  <target>Time On (Local)</target>
 </trans-unit>
 <trans-unit id="s61c03390ffab8042">
   <source>结束时间（UTC）</source>
+  <target>Time Off (UTC)</target>
 </trans-unit>
 <trans-unit id="s7457efdc108b6d0e">
   <source>结束时间（本地）</source>
+  <target>Time Off (Local)</target>
 </trans-unit>
 <trans-unit id="sa47794b4fb133903">
   <source>给出对方信号报告</source>
+  <target>RST Sent</target>
 </trans-unit>
 <trans-unit id="scacd7d13bed79532">
   <source>收到己方信号报告</source>
+  <target>RST Recv</target>
 </trans-unit>
 <trans-unit id="s394a12893372d0fc">
   <source>备注（一般为对方设备）</source>
+  <target>Remarks (Usually Their Equipment)</target>
 </trans-unit>
 <trans-unit id="s0490f8048920cd4e">
   <source>对方QTH</source>
+  <target>Their QTH</target>
 </trans-unit>
 <trans-unit id="scd68910935ad3f52">
   <source>设备</source>
+  <target>Equipment</target>
 </trans-unit>
 <trans-unit id="s1e6a7020c7645503">
   <source>己方网格坐标</source>
+  <target>My Grid Locator</target>
 </trans-unit>
 <trans-unit id="h0c293d1edd5e7dd4">
   <source>Chihiro HAM Logbook, Copyleft 2024 chariri, Made with TypeScript, TailwindCSS, Lit, hiq and ♥, 本主页开源在 <x id="0" equiv-text="&lt;a href=&quot;https://github.com/cqjjjzr/chihiro-ham-logbook&quot;&gt;"/>GitHub<x id="1" equiv-text="&lt;/a&gt;"/></source>
+  <target>Chihiro HAM Logbook, Copyleft 2024 chariri, Made with TypeScript, TailwindCSS, Lit, hiq and ♥, This homepage is open-sourced on <x id="0" equiv-text="&lt;a href=&quot;https://github.com/cqjjjzr/chihiro-ham-logbook&quot;&gt;"/>GitHub<x id="1" equiv-text="&lt;/a&gt;"/></target>
 </trans-unit>
 <trans-unit id="h02370ed6a8c75cb7">
   <source><x id="0" equiv-text="&lt;a href=&quot;https://chariri.moe&quot;&gt;"/>个人 Blog<x id="1" equiv-text="&lt;/a&gt;"/> - <x id="2" equiv-text="&lt;a href=&quot;https://m.chariri.moe/@chariri&quot;&gt;"/>Misskey<x id="3" equiv-text="&lt;/a&gt;"/></source>
+  <target><x id="0" equiv-text="&lt;a href=&quot;https://chariri.moe&quot;&gt;"/>Personal Blog<x id="1" equiv-text="&lt;/a&gt;"/> - <x id="2" equiv-text="&lt;a href=&quot;https://m.chariri.moe/@chariri&quot;&gt;"/>Misskey<x id="3" equiv-text="&lt;/a&gt;"/></target>
 </trans-unit>
 <trans-unit id="s98657e10d6cefbba">
   <source>茶栗的个人业余电台</source>
+  <target>chariri's Personal Amateur Radio Station</target>
 </trans-unit>
 <trans-unit id="s106b68089594935d">
   <source>台址</source>
+  <target>Station Address</target>
 </trans-unit>
 <trans-unit id="h9b8faa08f62b833b">
   <source>CRAC 4 区 - 江苏省南京市栖霞区仙林大道 - <x id="0" equiv-text="&lt;span class=&quot;font-mono&quot;&gt;"/>OM92lc<x id="1" equiv-text="&lt;/span&gt;"/></source>
+  <target>CRAC Zone 4 - Xianlin Avenue, Qixia District, Nanjing, Jiangsu, P.R. China - <x id="0" equiv-text="&lt;span class=&quot;font-mono&quot;&gt;"/>OM92lc<x id="1" equiv-text="&lt;/span&gt;"/></target>
 </trans-unit>
 <trans-unit id="s2287c700d9bf57d8">
   <source>欧讯 KG-UV9D(Plus) + 钻石 SRH771 天线</source>
+  <target>Wouxun KG-UV9D(Plus) + Diamond SRH771 Antenna</target>
 </trans-unit>
 <trans-unit id="sd384903290526ce6">
   <source>即时通 D9000app + 钻石 SRH770H 天线</source>
+  <target>Zestone D9000app + Diamond SRH770H Antenna</target>
 </trans-unit>
 <trans-unit id="sbd4371084ec2ae79">
   <source>等级</source>
-</trans-unit>
-<trans-unit id="s86beed679e0778c0">
-  <source>A - 仅限 25 W 功率以下，50~54、144~148 与 430~440 MHz 发射 （操作证等级为 B，暂未设台）】</source>
+  <target>Class</target>
 </trans-unit>
 <trans-unit id="sb19d2a500c62ecc1">
   <source>频率与模式</source>
+  <target>Frequency and Mode</target>
 </trans-unit>
 <trans-unit id="s0dfedea27b4125ee">
   <source>430~440 MHz (UHF)，FM，个人较活跃的频率为 438.5 MHz 直频与 430.61 MHz 南京紫金山中继</source>
+  <target>430~440 MHz (UHF), FM, Personally active frequencies are 438.5 MHz direct and 430.61 MHz Nanjing Zijingshan Mountain repeater</target>
 </trans-unit>
 <trans-unit id="se3733c0dc51dffe7">
   <source>144~148 MHz (VHF)，FM，个人不常用</source>
+  <target>144~148 MHz (VHF), FM, Personally not often used</target>
 </trans-unit>
 <trans-unit id="s84cfbf6c8b155a97">
   <source>邮寄地址</source>
+  <target>Mail Address</target>
 </trans-unit>
 <trans-unit id="sac956aecf1431658">
   <source>江苏省南京市21004294号邮箱 210042</source>
+  <target>P.O. Box 21004294, Nanjing, Jiangsu 210042, P.R. China</target>
 </trans-unit>
 <trans-unit id="s1039e9fad75a6f6d">
   <source>线上联系方式</source>
+  <target>Online Contact</target>
 </trans-unit>
 <trans-unit id="sf3723fd035e8553b">
   <source>QSL 卡片交换</source>
+  <target>QSL Card Exchange</target>
 </trans-unit>
 <trans-unit id="s872a113faa58e628">
   <source>欢迎与我成功通联的友台交换 QSL 卡片，纸质卡片请直接向上表中地址寄出。我会查询 HamCQ 与 QRZ.com 并向我能查到信息的友台寄送卡片，或在收到卡片后回寄。向我邮寄卡片时不需要附上 SASE。</source>
+  <target>Welcome to exchange QSL cards with me after a successful contact. Please send paper cards directly to the address above. I will check HamCQ and QRZ.com to send cards to stations I find information for or return a card after receiving one. SASE not required.</target>
 </trans-unit>
 <trans-unit id="s28909aaa4beb69ae">
   <source>目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到本站与 LoTW，您可通过下方的 Logbook 确认我们的通联。</source>
+  <target>Currently, I do not accept electronic QSL cards, but I will non-periodically upload logs to this site and LoTW. You can confirm our contact through the Logbook below.</target>
 </trans-unit>
 <trans-unit id="s17af0a0a5381dca8">
   <source>我的 QSL 卡片</source>
+  <target>My QSL Card</target>
 </trans-unit>
 <trans-unit id="h670b93b376bdf012">
   <source>其中正面来自 <x id="0" equiv-text="&lt;a href=&quot;https://shiro.love/&quot;&gt;"/>Shiro<x id="1" equiv-text="&lt;/a&gt;"/> 即 BI3AR 的<x id="2" equiv-text="&lt;a href=&quot;https://forum.hamcq.cn/d/418&quot;&gt;"/>设计<x id="3" equiv-text="&lt;/a&gt;"/>，背面的插画为插画师 <x id="4" equiv-text="&lt;a href=&quot;https://www.pixiv.net/users/418969&quot;&gt;"/>TID<x id="5" equiv-text="&lt;/a&gt;"/> 的作品<x id="6" equiv-text="&lt;a href=&quot;https://www.pixiv.net/artworks/99486679&quot;&gt;"/>「🍀」<x id="7" equiv-text="&lt;/a&gt;"/></source>
+  <target>The front design is by <x id="0" equiv-text="&lt;a href=&quot;https://shiro.love/&quot;&gt;"/>Shiro<x id="1" equiv-text="&lt;/a&gt;"/> aka BI3AR <x id="2" equiv-text="&lt;a href=&quot;https://forum.hamcq.cn/d/418&quot;&gt;"/>design<x id="3" equiv-text="&lt;/a&gt;"/>, and the back illustration is by artist <x id="4" equiv-text="&lt;a href=&quot;https://www.pixiv.net/users/418969&quot;&gt;"/>TID<x id="5" equiv-text="&lt;/a&gt;"/> <x id="6" equiv-text="&lt;a href=&quot;https://www.pixiv.net/artworks/99486679&quot;&gt;"/>「🍀」<x id="7" equiv-text="&lt;/a&gt;"/></target>
 </trans-unit>
 <trans-unit id="s243eb0869ad88f10">
   <source>茶栗栗屋 blog</source>
+  <target>chariri's Blog</target>
 </trans-unit>
 <trans-unit id="sb475c6652dfbbeb7">
   <source>通联日志</source>
+  <target>Logbook</target>
 </trans-unit>
 <trans-unit id="sd3492df2457a0777">
   <source>欢迎与我通联的友台通过各种联系方式联系我修正有记录错误的地方，或去除不希望在此披露的可能的隐私信息。</source>
+  <target>Stations who have contacted me are welcome to reach out to me to correct any log errors or remove any private information that they do not wish to be disclosed here.</target>
+</trans-unit>
+<trans-unit id="s1f485fbc8f5ef451">
+  <source>A - 仅限 25 W 功率以下，50~54、144~148 与 430~440 MHz 发射 （操作证等级为 B，暂未设台）</source>
+  <target>Class A - Limited to power below 25 W, transmission in 50~54, 144~148, and 430~440 MHz (Operator license class B, station not yet set up)</target>
 </trans-unit>
 </body>
 </file>

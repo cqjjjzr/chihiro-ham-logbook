@@ -1,13 +1,15 @@
 import './index.css';
 
-import { LitElement, html } from 'lit';
+import { LitElement, html, render } from 'lit';
 import { customElement } from 'lit/decorators.js';
-import { msg } from '@lit/localize';
+import { localized, msg } from '@lit/localize';
 import { type Ref, createRef, ref } from 'lit/directives/ref.js';
 
 import './logbookView.ts';
 import { MorseAnimator } from './morseAnimator.ts';
+import { defaultLocale, localesWithMetadata, setLocale } from './localization.ts';
 
+@localized()
 @customElement('app-main')
 export class AppMain extends LitElement {
   cqcqText: Ref<HTMLElement> = createRef();
@@ -17,13 +19,29 @@ export class AppMain extends LitElement {
   contentElement: Ref<HTMLElement> = createRef();
   dividerElement: Ref<HTMLElement> = createRef();
 
+  private _animatorFinished = false;
+
   createRenderRoot(): AppMain {
     return this; // No shadow root
+  }
+
+  localeSwitchLinksTemplate() {
+    return html`${
+      localesWithMetadata.map(({ name, displayName, isDefault }) => {
+        const url = isDefault ? '/index.html' : `/index-${name}.html`;
+        return html`
+          <a
+            lang="${name}"
+            @click="${(evt: Event) => { this.switchLocale(name, evt, url); }}"
+            href="${url}">${displayName}</a>`;
+      })
+    }`;
   }
 
   headerTemplate() {
     return html`
       <header class="mt-3 mx-6 max-w-full">
+        ${this.localeSwitchLinksTemplate()}
         <pre ${ref(this.cqcqText)} class="typewriter block typewriter-small-text">CQ CQ DE</pre>
         <pre ${ref(this.cqcqMorse)} class="typewriter leading-tight typewriter-small-morse">·-·- --·-   ·-·- --·-   -··· ·</pre>
         <pre ${ref(this.callsignText)} class="typewriter block font-bold typewriter-large-text">BD4WXB</pre>
@@ -54,7 +72,7 @@ export class AppMain extends LitElement {
           <li>${msg('即时通 D9000app + 钻石 SRH770H 天线')}</li>
         </ul></dd>
         <dt>${msg('等级')}</dt>
-        <dd>${msg('A - 仅限 25 W 功率以下，50~54、144~148 与 430~440 MHz 发射 （操作证等级为 B，暂未设台）】')}</dd>
+        <dd>${msg('A - 仅限 25 W 功率以下，50~54、144~148 与 430~440 MHz 发射 （操作证等级为 B，暂未设台）')}</dd>
         <dt>${msg('频率与模式')}</dt>
         <dd><ul class="uk-list uk-list-circle">
           <li>${msg('430~440 MHz (UHF)，FM，个人较活跃的频率为 438.5 MHz 直频与 430.61 MHz 南京紫金山中继')}</li>
@@ -105,11 +123,28 @@ export class AppMain extends LitElement {
     </div>`;
   }
 
+  private switchLocale(name: string, evt: Event, url: string) {
+    setLocale(name).then(() => this.finishAnimation());
+    evt.preventDefault();
+    window.history.pushState('', '', url);
+    document.querySelector('html')?.setAttribute('lang', name.replace('zh-Hans', 'zh-CN'));
+  }
+
+  private finishAnimation(): void {
+    this._animatorFinished = true;
+    this.contentElement.value!.style.opacity = '1.0';
+    this.dividerElement.value!.style.width = '100%';
+  }
+
   firstUpdated(): void {
+    if (this._animatorFinished) {
+      this.finishAnimation();
+      return;
+    }
     const scrollListener = () => {
       if (window.scrollY > 20) {
         window.removeEventListener('scroll', scrollListener);
-        this.contentElement.value!.style.opacity = '1.0';
+        this.finishAnimation();
       }
     };
     window.addEventListener('scroll', scrollListener);
@@ -118,10 +153,16 @@ export class AppMain extends LitElement {
     cqAnimation.beginAnimation(() => {
       setTimeout(() => {
         csAnimation.beginAnimation(() => {
-          this.contentElement.value!.style.opacity = '1.0';
-          this.dividerElement.value!.style.width = '100%';
+          this.finishAnimation();
         });
       }, 200);
     });
   }
 }
+
+(async () => {
+  const mainElement = document.querySelector('app-main-localized')! as HTMLElement;
+  const locale = mainElement.getAttribute('lang') ?? defaultLocale;
+  setLocale(locale);
+  render(html` <app-main class="mx-0 w-full block"></app-main> `, document.querySelector('app-main-localized')! as HTMLElement);
+})();
