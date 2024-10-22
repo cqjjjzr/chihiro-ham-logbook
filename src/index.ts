@@ -36,7 +36,7 @@ export class AppMain extends LitElement {
     return html`
       <footer class="mx-6 my-6 text-center">
         <h2 class="text-center text-[#f2a93b] text-opacity-1" lang="ja">「聞こえますか？真実の旋律。」</h2>
-        ${msg(html`Chihiro HAM Logbook, Copyleft 2023 chariri, Made with TypeScript, TailwindCSS, Lit, hiq and ♥, 本主页开源在 <a href="https://github.com/cqjjjzr/chihiro-ham-logbook">GitHub</a>`)}<br>
+        ${msg(html`Chihiro HAM Logbook, Copyleft 2024 chariri, Made with TypeScript, TailwindCSS, Lit, hiq and ♥, 本主页开源在 <a href="https://github.com/cqjjjzr/chihiro-ham-logbook">GitHub</a>`)}<br>
         ${msg(html`<a href="https://chariri.moe">个人 Blog</a> - <a href="https://m.chariri.moe/@chariri">Misskey</a>`)}
       </footer>
     `;
@@ -54,7 +54,7 @@ export class AppMain extends LitElement {
           <li>${msg('即时通 D9000app + 钻石 SRH770H 天线')}</li>
         </ul></dd>
         <dt>${msg('等级')}</dt>
-        <dd>${msg('A - 仅限 25 W 功率以下，50~54、144~148 与 430~440 MHz 发射')}</dd>
+        <dd>${msg('A - 仅限 25 W 功率以下，50~54、144~148 与 430~440 MHz 发射 （操作证等级为 B，暂未设台）】')}</dd>
         <dt>${msg('频率与模式')}</dt>
         <dd><ul class="uk-list uk-list-circle">
           <li>${msg('430~440 MHz (UHF)，FM，个人较活跃的频率为 438.5 MHz 直频与 430.61 MHz 南京紫金山中继')}</li>
@@ -100,7 +100,7 @@ export class AppMain extends LitElement {
           <logbook-view class="block mx-0 h-[80vh]"></logbook-view>
         </article>
       </div>
-      
+
       ${this.footerTemplate()}
     </div>`;
   }

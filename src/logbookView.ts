@@ -163,7 +163,6 @@ export class LogbookView extends LitElement {
             selfRig: record['my_rig']?.trim()
           } as LogbookEntry;
         }).sort((a: LogbookEntry, b: LogbookEntry) => b.timeOn - a.timeOn) ?? [];
-        console.log(this.data);
       } catch (ex) {
         console.log(ex);
         this.adiFetchFailure = String(ex);
