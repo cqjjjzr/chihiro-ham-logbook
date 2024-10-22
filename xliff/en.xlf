@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="en" source-language="zh-Hans" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="scd53a3d007f9483f">
+  <source>UTC时间</source>
+</trans-unit>
+<trans-unit id="s67d888c7fc251fea">
+  <source>己方呼号</source>
+</trans-unit>
+<trans-unit id="s5488c45d1662eab2">
+  <source>对方呼号</source>
+</trans-unit>
+<trans-unit id="sf160cc095460e0a2">
+  <source>送出</source>
+</trans-unit>
+<trans-unit id="s7f158c081a148d9b">
+  <source>收到</source>
+</trans-unit>
+<trans-unit id="s96ca6d0638209ef4">
+  <source>发射频率</source>
+</trans-unit>
+<trans-unit id="sbedbce22a379c5ca">
+  <source>接收频率</source>
+</trans-unit>
+<trans-unit id="s8923590822abd559">
+  <source>模式</source>
+</trans-unit>
+<trans-unit id="s2bda9d0429f00cd6">
+  <source>发射功率</source>
+</trans-unit>
+<trans-unit id="s7e98aaf4026d889a">
+  <source>拉取通联日志失败</source>
+</trans-unit>
+<trans-unit id="s95ea085ff604073b">
+  <source>开始时间（UTC）</source>
+</trans-unit>
+<trans-unit id="s90b00e681c1d1245">
+  <source>开始时间（本地）</source>
+</trans-unit>
+<trans-unit id="s61c03390ffab8042">
+  <source>结束时间（UTC）</source>
+</trans-unit>
+<trans-unit id="s7457efdc108b6d0e">
+  <source>结束时间（本地）</source>
+</trans-unit>
+<trans-unit id="sa47794b4fb133903">
+  <source>给出对方信号报告</source>
+</trans-unit>
+<trans-unit id="scacd7d13bed79532">
+  <source>收到己方信号报告</source>
+</trans-unit>
+<trans-unit id="s394a12893372d0fc">
+  <source>备注（一般为对方设备）</source>
+</trans-unit>
+<trans-unit id="s0490f8048920cd4e">
+  <source>对方QTH</source>
+</trans-unit>
+<trans-unit id="scd68910935ad3f52">
+  <source>设备</source>
+</trans-unit>
+<trans-unit id="s1e6a7020c7645503">
+  <source>己方网格坐标</source>
+</trans-unit>
+<trans-unit id="h0c293d1edd5e7dd4">
+  <source>Chihiro HAM Logbook, Copyleft 2024 chariri, Made with TypeScript, TailwindCSS, Lit, hiq and ♥, 本主页开源在 <x id="0" equiv-text="&lt;a href=&quot;https://github.com/cqjjjzr/chihiro-ham-logbook&quot;&gt;"/>GitHub<x id="1" equiv-text="&lt;/a&gt;"/></source>
+</trans-unit>
+<trans-unit id="h02370ed6a8c75cb7">
+  <source><x id="0" equiv-text="&lt;a href=&quot;https://chariri.moe&quot;&gt;"/>个人 Blog<x id="1" equiv-text="&lt;/a&gt;"/> - <x id="2" equiv-text="&lt;a href=&quot;https://m.chariri.moe/@chariri&quot;&gt;"/>Misskey<x id="3" equiv-text="&lt;/a&gt;"/></source>
+</trans-unit>
+<trans-unit id="s98657e10d6cefbba">
+  <source>茶栗的个人业余电台</source>
+</trans-unit>
+<trans-unit id="s106b68089594935d">
+  <source>台址</source>
+</trans-unit>
+<trans-unit id="h9b8faa08f62b833b">
+  <source>CRAC 4 区 - 江苏省南京市栖霞区仙林大道 - <x id="0" equiv-text="&lt;span class=&quot;font-mono&quot;&gt;"/>OM92lc<x id="1" equiv-text="&lt;/span&gt;"/></source>
+</trans-unit>
+<trans-unit id="s2287c700d9bf57d8">
+  <source>欧讯 KG-UV9D(Plus) + 钻石 SRH771 天线</source>
+</trans-unit>
+<trans-unit id="sd384903290526ce6">
+  <source>即时通 D9000app + 钻石 SRH770H 天线</source>
+</trans-unit>
+<trans-unit id="sbd4371084ec2ae79">
+  <source>等级</source>
+</trans-unit>
+<trans-unit id="s86beed679e0778c0">
+  <source>A - 仅限 25 W 功率以下，50~54、144~148 与 430~440 MHz 发射 （操作证等级为 B，暂未设台）】</source>
+</trans-unit>
+<trans-unit id="sb19d2a500c62ecc1">
+  <source>频率与模式</source>
+</trans-unit>
+<trans-unit id="s0dfedea27b4125ee">
+  <source>430~440 MHz (UHF)，FM，个人较活跃的频率为 438.5 MHz 直频与 430.61 MHz 南京紫金山中继</source>
+</trans-unit>
+<trans-unit id="se3733c0dc51dffe7">
+  <source>144~148 MHz (VHF)，FM，个人不常用</source>
+</trans-unit>
+<trans-unit id="s84cfbf6c8b155a97">
+  <source>邮寄地址</source>
+</trans-unit>
+<trans-unit id="sac956aecf1431658">
+  <source>江苏省南京市21004294号邮箱 210042</source>
+</trans-unit>
+<trans-unit id="s1039e9fad75a6f6d">
+  <source>线上联系方式</source>
+</trans-unit>
+<trans-unit id="sf3723fd035e8553b">
+  <source>QSL 卡片交换</source>
+</trans-unit>
+<trans-unit id="s872a113faa58e628">
+  <source>欢迎与我成功通联的友台交换 QSL 卡片，纸质卡片请直接向上表中地址寄出。我会查询 HamCQ 与 QRZ.com 并向我能查到信息的友台寄送卡片，或在收到卡片后回寄。向我邮寄卡片时不需要附上 SASE。</source>
+</trans-unit>
+<trans-unit id="s28909aaa4beb69ae">
+  <source>目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到本站与 LoTW，您可通过下方的 Logbook 确认我们的通联。</source>
+</trans-unit>
+<trans-unit id="s17af0a0a5381dca8">
+  <source>我的 QSL 卡片</source>
+</trans-unit>
+<trans-unit id="h670b93b376bdf012">
+  <source>其中正面来自 <x id="0" equiv-text="&lt;a href=&quot;https://shiro.love/&quot;&gt;"/>Shiro<x id="1" equiv-text="&lt;/a&gt;"/> 即 BI3AR 的<x id="2" equiv-text="&lt;a href=&quot;https://forum.hamcq.cn/d/418&quot;&gt;"/>设计<x id="3" equiv-text="&lt;/a&gt;"/>，背面的插画为插画师 <x id="4" equiv-text="&lt;a href=&quot;https://www.pixiv.net/users/418969&quot;&gt;"/>TID<x id="5" equiv-text="&lt;/a&gt;"/> 的作品<x id="6" equiv-text="&lt;a href=&quot;https://www.pixiv.net/artworks/99486679&quot;&gt;"/>「🍀」<x id="7" equiv-text="&lt;/a&gt;"/></source>
+</trans-unit>
+<trans-unit id="s243eb0869ad88f10">
+  <source>茶栗栗屋 blog</source>
+</trans-unit>
+<trans-unit id="sb475c6652dfbbeb7">
+  <source>通联日志</source>
+</trans-unit>
+<trans-unit id="sd3492df2457a0777">
+  <source>欢迎与我通联的友台通过各种联系方式联系我修正有记录错误的地方，或去除不希望在此披露的可能的隐私信息。</source>
+</trans-unit>
+</body>
+</file>
+</xliff>
