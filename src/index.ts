@@ -69,10 +69,13 @@ export class AppMain extends LitElement {
         <dt>${msg('设备')}</dt>
         <dd><ul class="uk-list uk-list-circle">
           <li>${msg('欧讯 KG-UV9D(Plus) + 钻石 SRH771 天线')}</li>
-          <li>${msg('即时通 D9000app + 钻石 SRH770H 天线')}</li>
+          <li>${msg('即时通 D9000app + 钻石 SRH770H 天线 / 7U4V 八木宇田')}</li>
         </ul></dd>
         <dt>${msg('等级')}</dt>
-        <dd>${msg('A - 仅限 25 W 功率以下，50~54、144~148 与 430~440 MHz 发射 （操作证等级为 B，暂未设台）')}</dd>
+        <dd><ul class="uk-list uk-list-circle">
+          <li>${msg('中国：A - 仅限 25 W 功率以下，50~54、144~148 与 430~440 MHz 发射 （操作证等级为 B，暂未设台）')}</li>
+          <li>${msg('日本：第一级业余无线技士（未设台）')}</li>
+        </ul></dd>
         <dt>${msg('频率与模式')}</dt>
         <dd><ul class="uk-list uk-list-circle">
           <li>${msg('430~440 MHz (UHF)，FM，个人较活跃的频率为 438.5 MHz 直频与 430.61 MHz 南京紫金山中继')}</li>
@@ -86,7 +89,7 @@ export class AppMain extends LitElement {
       <h3 class="uk-h3">${msg('QSL 卡片交换')}</h3>
       <div class="indent-[2em]">
         <p>${msg('欢迎与我成功通联的友台交换 QSL 卡片，纸质卡片请直接向上表中地址寄出。我会查询 HamCQ 与 QRZ.com 并向我能查到信息的友台寄送卡片，或在收到卡片后回寄。向我邮寄卡片时不需要附上 SASE。')}</p>
-        <p>${msg('目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到本站与 LoTW，您可通过下方的 Logbook 确认我们的通联。')}</p>
+        <p>${msg('目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到本站、QRZ.com 与 LoTW，您可通过下方的 Logbook 确认我们的通联。')}</p>
         <div class="flex justify-evenly justify-items-center my-4 flex-wrap shrink">
           <img src="assets/QSLCard.webp" class="qsl-img">
           <img src="assets/QSLCard-Back.webp" class="qsl-img">
@@ -115,6 +118,7 @@ export class AppMain extends LitElement {
           <hr class="uk-divider-icon" />
           <h3 class="uk-h3">${msg('通联日志')}</h3>
           ${msg('欢迎与我通联的友台通过各种联系方式联系我修正有记录错误的地方，或去除不希望在此披露的可能的隐私信息。')}
+          <em><br>${msg(html`2024/12/08: 由于 QLog 软件的导出乱码 Bug，本页面在修复之前会暂停更新。下列更新截至 2024/10/22。`)}</em>
           <logbook-view class="block mx-0 h-[80vh]"></logbook-view>
         </article>
       </div>
