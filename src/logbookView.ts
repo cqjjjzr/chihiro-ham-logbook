@@ -156,7 +156,7 @@ export class LogbookView extends LitElement {
             receivedRst: record['rst_rcvd'],
             txFreq: record['freq'],
             rxFreq: record['freq_rx'],
-            txPower: record['rx_pwr'],
+            txPower: record['tx_pwr'],
             mode: record['mode'],
             comment: record['comment_intl']?.trim(),
             qth: record['qth_intl']?.trim(),
