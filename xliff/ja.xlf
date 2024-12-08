@@ -170,17 +170,17 @@
   <source>日本：第一级业余无线技士（未设台）</source>
   <target>日本：第一級アマチュア無線技士（開局していない）</target>
 </trans-unit>
-<trans-unit id="s7a0485a37c1aff25">
-  <source>即时通 D9000app + 钻石 SRH770H 天线 / 7U4V 八木宇田</source>
-  <target>Zestone D9000app + DIAMOND SRH770H / 7U4V 八木宇田</target>
+<trans-unit id="s44022c857793446e">
+  <source>即时通 D9000app + 钻石 NR770H 天线 / 7U4V 八木宇田</source>
+  <target>Zestone D9000app + DIAMOND NR770H / 7U4V 八木宇田</target>
 </trans-unit>
 <trans-unit id="s4f0895e6053021c3">
   <source>目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到本站、QRZ.com 与 LoTW，您可通过下方的 Logbook 确认我们的通联。</source>
   <target>電子QSLカードは受け付けていませんが、交信ログを不定期に当サイト、QRZ.com とLoTWにアップロードしますので、下のログブックで私たちの交信を確認できます。</target>
 </trans-unit>
-<trans-unit id="h5153c007115fa82b">
-  <source>2024/12/08: 由于 QLog 软件的导出乱码 Bug，本页面在修复之前会暂停更新。下列更新截至 2024/10/22。</source>
-  <target>2024/12/08: QLogソフトウェアの出力の文字化けバグのため、このページは修正されるまで更新を一時停止します。以下の更新は2024/10/22までです。</target>
+<trans-unit id="h55d45495016171e1">
+  <source>2024/12/08: 由于 QLog 软件的导出乱码 Bug，本页面在修复之前会暂停更新。下列更新截至 2024/10/22。另外部分通联错误记录我台天线为SRH770H，在此更正为NR770H。</source>
+  <target>2024/12/08: QLogソフトウェアの出力の文字化けバグのため、このページは修正されるまで更新を一時停止します。以下の更新は2024/10/22までです。一部の交信記録で当局のアンテナがSRH770Hと誤って記録されていましたが、ここでNR770Hに訂正いたします。</target>
 </trans-unit>
 </body>
 </file>
