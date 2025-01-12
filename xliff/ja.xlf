@@ -178,9 +178,17 @@
   <source>目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到本站、QRZ.com 与 LoTW，您可通过下方的 Logbook 确认我们的通联。</source>
   <target>電子QSLカードは受け付けていませんが、交信ログを不定期に当サイト、QRZ.com とLoTWにアップロードしますので、下のログブックで私たちの交信を確認できます。</target>
 </trans-unit>
-<trans-unit id="h55d45495016171e1">
-  <source>2024/12/08: 由于 QLog 软件的导出乱码 Bug，本页面在修复之前会暂停更新。下列更新截至 2024/10/22。另外部分通联错误记录我台天线为SRH770H，在此更正为NR770H。</source>
-  <target>2024/12/08: QLogソフトウェアの出力の文字化けバグのため、このページは修正されるまで更新を一時停止します。以下の更新は2024/10/22までです。一部の交信記録で当局のアンテナがSRH770Hと誤って記録されていましたが、ここでNR770Hに訂正いたします。</target>
+<trans-unit id="s1f44b2ea34752b4b">
+  <source>对方网格坐标</source>
+  <target>相手Grid Locator</target>
+</trans-unit>
+<trans-unit id="sba6623d02b6f1016">
+  <source>传播方式</source>
+  <target>伝搬モード</target>
+</trans-unit>
+<trans-unit id="s0e49e908937b732f">
+  <source>卫星</source>
+  <target>衛星</target>
 </trans-unit>
 </body>
 </file>

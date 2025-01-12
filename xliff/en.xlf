@@ -178,9 +178,17 @@
   <source>目前我暂不接受电子 QSL 卡片，但会不定期将通联日志上传到本站、QRZ.com 与 LoTW，您可通过下方的 Logbook 确认我们的通联。</source>
   <target>Currently, I do not accept electronic QSL cards, but I will non-periodically upload logs to this site, QRZ.com and LoTW. You can confirm our contact through the Logbook below.</target>
 </trans-unit>
-<trans-unit id="h55d45495016171e1">
-  <source>2024/12/08: 由于 QLog 软件的导出乱码 Bug，本页面在修复之前会暂停更新。下列更新截至 2024/10/22。另外部分通联错误记录我台天线为SRH770H，在此更正为NR770H。</source>
-  <target>2024/12/08: Due to a bug in the QLog software causing export to mojibake (text corruption), this page will not be updated until it is fixed. The following updates are current as of 2024/10/22. In some contacts, I mistakenly recorded my station's antenna as SRH770H; here I correct it to NR770H.</target>
+<trans-unit id="s1f44b2ea34752b4b">
+  <source>对方网格坐标</source>
+  <target>Their Grid Locator</target>
+</trans-unit>
+<trans-unit id="sba6623d02b6f1016">
+  <source>传播方式</source>
+  <target>Propgation Mode</target>
+</trans-unit>
+<trans-unit id="s0e49e908937b732f">
+  <source>卫星</source>
+  <target>Satellite</target>
 </trans-unit>
 </body>
 </file>

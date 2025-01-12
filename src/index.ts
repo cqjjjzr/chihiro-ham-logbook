@@ -118,7 +118,6 @@ export class AppMain extends LitElement {
           <hr class="uk-divider-icon" />
           <h3 class="uk-h3">${msg('通联日志')}</h3>
           ${msg('欢迎与我通联的友台通过各种联系方式联系我修正有记录错误的地方，或去除不希望在此披露的可能的隐私信息。')}
-          <em><br>${msg(html`2024/12/08: 由于 QLog 软件的导出乱码 Bug，本页面在修复之前会暂停更新。下列更新截至 2024/10/22。另外部分通联错误记录我台天线为SRH770H，在此更正为NR770H。`)}</em>
           <logbook-view class="block mx-0 h-[80vh]"></logbook-view>
         </article>
       </div>
