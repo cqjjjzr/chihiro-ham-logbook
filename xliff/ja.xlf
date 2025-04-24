@@ -190,6 +190,14 @@
   <source>卫星</source>
   <target>衛星</target>
 </trans-unit>
+<trans-unit id="h9e6a8362efa93894">
+  <source>其中正面基于 <x id="0" equiv-text="&lt;a href=&quot;https://shiro.love/&quot;&gt;"/>Shiro<x id="1" equiv-text="&lt;/a&gt;"/> 即 BI3AR 的<x id="2" equiv-text="&lt;a href=&quot;https://forum.hamcq.cn/d/418&quot;&gt;"/>设计<x id="3" equiv-text="&lt;/a&gt;"/>，改造得适用于机打，背面的插画为插画师 <x id="4" equiv-text="&lt;a href=&quot;https://space.bilibili.com/524445763&quot;&gt;"/>乐韵Jewel<x id="5" equiv-text="&lt;/a&gt;"/> 的<x id="6" equiv-text="&lt;a href=&quot;https://t.bilibili.com/1054583074411511815&quot;&gt;"/>作品<x id="7" equiv-text="&lt;/a&gt;"/></source>
+  <target>表面は <x id="0" equiv-text="&lt;a href=&quot;https://shiro.love/&quot;&gt;"/>Shiro さん<x id="1" equiv-text="&lt;/a&gt;"/> すなわちBI3ARにより設計された<x id="2" equiv-text="&lt;a href=&quot;https://forum.hamcq.cn/d/418&quot;&gt;"/>もの<x id="3" equiv-text="&lt;/a&gt;"/>に基き、印刷に最適化したものです。裏面のイラストはイラストレーター <x id="4" equiv-text="&lt;a href=&quot;https://space.bilibili.com/524445763&quot;&gt;"/>乐韵Jewelさん<x id="5" equiv-text="&lt;/a&gt;"/> の<x id="6" equiv-text="&lt;a href=&quot;https://t.bilibili.com/1054583074411511815&quot;&gt;"/>作品<x id="7" equiv-text="&lt;/a&gt;"/>です</target>
+</trans-unit>
+<trans-unit id="s7e00d5aadbaba9ea">
+  <source>我的第一版 QSL 卡片（已发完）</source>
+  <target>私のQSLカード，バージョン1 （発行終了）</target>
+</trans-unit>
 </body>
 </file>
 </xliff>

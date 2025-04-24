@@ -96,6 +96,14 @@ export class AppMain extends LitElement {
         </div>
         <p class="indent-0 text-center">
           ${msg('我的 QSL 卡片')}<br>
+          ${msg(html`其中正面基于 <a href="https://shiro.love/">Shiro</a> 即 BI3AR 的<a href="https://forum.hamcq.cn/d/418">设计</a>，改造得适用于机打，背面的插画为插画师 <a href="https://space.bilibili.com/524445763">乐韵Jewel</a> 的<a href="https://t.bilibili.com/1054583074411511815">作品</a>`)}
+        </p>
+        <div class="flex justify-evenly justify-items-center my-4 flex-wrap shrink">
+          <img src="assets/QSLCard-v1.webp" class="qsl-img">
+          <img src="assets/QSLCard-Back-v1.webp" class="qsl-img">
+        </div>
+        <p class="indent-0 text-center">
+          ${msg('我的第一版 QSL 卡片（已发完）')}<br>
           ${msg(html`其中正面来自 <a href="https://shiro.love/">Shiro</a> 即 BI3AR 的<a href="https://forum.hamcq.cn/d/418">设计</a>，背面的插画为插画师 <a href="https://www.pixiv.net/users/418969">TID</a> 的作品<a href="https://www.pixiv.net/artworks/99486679">「🍀」</a>`)}
         </p>
       </div>

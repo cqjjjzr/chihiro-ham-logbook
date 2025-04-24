@@ -11,8 +11,9 @@
     export const templates = {
       'h02370ed6a8c75cb7': html`<a href="https://chariri.moe">Personal Blog</a> - <a href="https://m.chariri.moe/@chariri">Misskey</a>`,
 'h0c293d1edd5e7dd4': html`Chihiro HAM Logbook, Copyleft 2024 chariri, Made with TypeScript, TailwindCSS, Lit, hiq and ♥, This homepage is open-sourced on <a href="https://github.com/cqjjjzr/chihiro-ham-logbook">GitHub</a>`,
-'h670b93b376bdf012': html`The front design is by <a href="https://shiro.love/">Shiro</a> aka BI3AR <a href="https://forum.hamcq.cn/d/418">design</a>, and the back illustration is by artist <a href="https://www.pixiv.net/users/418969">TID</a> <a href="https://www.pixiv.net/artworks/99486679">「🍀」</a>`,
+'h670b93b376bdf012': html`The design is by <a href="https://shiro.love/">Shiro</a> aka BI3AR <a href="https://forum.hamcq.cn/d/418">design</a>, and the back illustration is by artist <a href="https://www.pixiv.net/users/418969">TID</a> <a href="https://www.pixiv.net/artworks/99486679">「🍀」</a>`,
 'h9b8faa08f62b833b': html`CRAC Zone 4 - Xianlin Avenue, Qixia District, Nanjing, Jiangsu, P.R. China - <span class="font-mono">OM92lc</span>`,
+'h9e6a8362efa93894': html`The design is based on the <a href="https://forum.hamcq.cn/d/418">design</a> by <a href="https://shiro.love/">Shiro</a> aka BI3AR, modified for printing instead of filling by hand. and the <a href="https://t.bilibili.com/1054583074411511815">illustration</a> on the back is by <a href="https://space.bilibili.com/524445763">乐韵Jewel</a>.`,
 's0490f8048920cd4e': `Their QTH`,
 's0dfedea27b4125ee': `430~440 MHz (UHF), FM, Personally active frequencies are 438.5 MHz direct and 430.61 MHz Nanjing Zijingshan Mountain repeater`,
 's0e49e908937b732f': `Satellite`,
@@ -32,6 +33,7 @@
 's61c03390ffab8042': `Time Off (UTC)`,
 's67d888c7fc251fea': `My Callsign`,
 's7457efdc108b6d0e': `Time Off (Local)`,
+'s7e00d5aadbaba9ea': `My QSL Card version 1 (no longer printed)`,
 's7e98aaf4026d889a': `Failed to Retrieve Logbook`,
 's7f158c081a148d9b': `Received`,
 's84cfbf6c8b155a97': `Mail Address`,
